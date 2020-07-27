@@ -22,3 +22,16 @@
     background-color: burlywood;
     color: black;
   }
+  .profile-link {
+    color: #A69D79;
+    text-decoration: none;
+  }
+  .profile-link:hover {
+    text-decoration: none;
+    color: mediumaquamarine;
+  }
+
+  .card-img {
+    height: 60%;
+    width: 100%;
+  }

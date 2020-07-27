@@ -6,12 +6,12 @@
     </title>
 
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    <link rel="stylesheet" href="cover.css">
-    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="styles/cover.css">
+    <link rel="stylesheet" href="styles/index.css">
 </head>
 <body class="text-center">
     <div class="cover-container d-flex w-100 h-100 p-3 mx-auto flex-column">
-        <div >
+        <div>
             <header class="masthead mb-auto">
                 <div class="inner">
                     <h3 class="masthead-brand">Gonzalo Santa Cruz</h3>
@@ -23,20 +23,32 @@
                 </div>
             </header>
         </div>
-        <div class="card-group contact-card">
-            <div class="card tarjeta">
+        <div class="row">
+          <div class="col-xs-12 col-md-12 mt-5 pb-3 border-bottom">
+            <h1 class="cover-heading">
+              Proyectos y Desarrollos
+            </h1>
+          </div>
+         
+        </div>
+        <div class="row mt-5">
+          <div class="contact-card">
+            <div class="col-xs-12 col-md-12 card tarjeta">
               <div class="card-body">
                 <h4 class="card-title">Desarrollo de Nox Security</h4>
-                <p class="card-text">Se realizó el desarrollo y diseño de la pagina web para la empresa Nox Security bajo la modalidad freelance</p>
+                <p class="card-text">Se realizó el desarrollo y diseño de la pagina web para la empresa Nox Security bajo la modalidad freelance. Dicho proyecto se puede visitar en el siguiente link: <a href="www.noxsecurity.com.ar">Nox Security</a></p>
+                <img class="card-img" src="img/nox.jpg" alt="Nox Security">
               </div>
             </div>
-            <div class="card tarjeta">
+            <div class="col-xs-12 col-md-12 card tarjeta">
               <div class="card-body">
                 <h4 class="card-title">Plataforma de descarga y subida de videos en 4K</h4>
                 <p class="card-text">Se desarrollo una plataforma para archivos de video en 4K usando el servicio Backblaze B2 Cloud como almacenamiento de archivos en la nube para Zildeep Media. Se utilizo CodeIgniter como framework PHP. El sistema se trabajó en conjunto con otro desarrollador bajo la modalidad freelance. El proyecto quedo inconcluso por falta de financiamiento.</p>
               </div>
             </div>
           </div>
+        </div>
+
 
     </div>
 </body>
