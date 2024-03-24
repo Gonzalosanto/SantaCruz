@@ -2,7 +2,7 @@ import Link from "../link/Link";
 
 const Navbar = () => {
     return(
-        <div className="bg-red-400 w-screen flex justify-between py-4 align-top">
+        <div className="w-screen flex justify-between py-4 align-top">
             <h2 className="text-lg px-4 py-4 align-middle">Portfolio</h2>
             <ul className="flex justify-center items-center list-image-none">
                 <Link link={'/#'} text={"About me"}/>
