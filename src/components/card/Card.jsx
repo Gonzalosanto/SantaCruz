@@ -7,7 +7,7 @@ const Card = (props) => {
         text-center 
         items-center 
         bg-blue-400
-        
+        h-96
     ">
         <img src={props.img} alt="imagen de trabajo hecho" />
         <p>{props.text}</p>
