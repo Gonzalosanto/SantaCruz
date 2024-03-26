@@ -3,14 +3,15 @@ const Card = (props) => {
     <div className="
         m-8 
         flex 
-        justify-start 
+        flex-col
         text-center 
         items-center 
         bg-blue-400
-        h-96
     ">
-        <img src={props.img} alt="imagen de trabajo hecho" />
-        <p>{props.text}</p>
+        <h1>{props.title || "JOB NAME"}</h1>
+        <h3>{props.duration}</h3>
+        {props.img && <img src={props.img} />}
+        <p className="whitespace-pre-line">{props.text}</p>
     </div>)
 }
 
