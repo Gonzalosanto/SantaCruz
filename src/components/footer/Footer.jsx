@@ -1,7 +1,8 @@
 const Footer = (props) => {
     return(
-        <li className="mx-8 px-2">
-        </li>
+        <p>
+            <h1 className="text-center py-4">Footer</h1>
+        </p>
     )
 }
 

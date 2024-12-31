@@ -6,8 +6,8 @@ const Navbar = () => {
             <h2 className="text-lg px-4 py-4 align-middle">Portfolio</h2>
             <ul className="flex justify-center items-center list-image-none">
                 <Link link={'#about-me'} text={"About me"}/>
-                <Link link={'#contact'} text={"Contact me!"}/>
-                <Link link={'#experiences'} text={"My experiences"}/>
+                <Link link={'#experiences'} text={"My experience"}/>
+                <Link link={'#contact'} text={"Contact me"}/>
             </ul>
         </div>
     )
