@@ -1,12 +1,9 @@
-import Body from './components/body/Body'
-import Navbar from './components/navbar/Navbar'
-import Footer from './components/footer/Footer'
+import Home from './pages/Home.jsx'
+
 function App() {
   return (
     <>
-      <Navbar/>
-      <Body/>
-      <Footer/>
+      <Home/>
     </>
   )
 }

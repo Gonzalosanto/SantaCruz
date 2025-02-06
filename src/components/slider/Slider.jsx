@@ -9,6 +9,7 @@ const Slider = (props) => {
                 return(
                     <>
                     <Card 
+                        key={item.id}
                         id={'experiences'} 
                         duration={item.duration} 
                         title={item.company} 
